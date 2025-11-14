@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Dr . Sai Sathwik Sadasivapetkar',
     title: ' CEO | SSS GROUP',
-    image: getAsset('images/profile.png'), // Resolves to /profile.png or /base-path/profile.png
+    image: "https://instasize.com/api/image/0c709da30a04ff6e70d3fc2f447854cef6d48d776c7585f09550e7f2e5cdbf6b.jpeg", // Resolves to /profile.png or /base-path/profile.png
     description: 'Sai Sathwik Sadasivapetkar is a dynamic young entrepreneur and the Chief Executive Officer of SSS Group of Companies, leading the organization at just 19 years of age. Despite his youth, Sathwik has already made a powerful impression in the business world, guiding SSS Group with vision, energy, and a commitment to innovation.\n' +
         '\n' +
         'From an early age, Sathwik demonstrated an entrepreneurial spirit: he was fascinated by business strategy, technology, and leadership. While still in his teens, he built a strong foundation in business management through self-study, mentorship, and real-world experience. His passion for growth and his fearlessness in tackling challenges set him apart.\n' +
