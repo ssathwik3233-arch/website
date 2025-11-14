@@ -6,10 +6,10 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Dr. Chandravesh Chaudhari',
-    title: 'Assistant Professor | Multimodal AI Researcher',
+    name: 'Dr. Sai Sathwik Sadasivapetkar',
+    title: 'CEO | SSS Group of companies',
     image: getAsset('images/profile.png'), // Resolves to /profile.png or /base-path/profile.png
-    description: 'Chandravesh Chaudhari, Ph.D. is an academic and practitioner working at the intersection of business analytics, machine learning, and technology-driven decision-making. His research and teaching focus on applying data science and emerging technologies to solve complex problems in business, economics, and management.\n' +
+    description: 'Sai Sathwik Sadasivapetkar is a dynamic young entrepreneur and the Chief Executive Officer of SSS Group of Companies, leading the organization at just 19 years of age. Despite his youth, Sathwik has already made a powerful impression in the business world, guiding SSS Group with vision, energy, and a commitment to innovation.\n' +
         '\n' +
         'Chandravesh teaches in the School of Business and Management at Christ University, where he has guided numerous students and professionals in mastering advanced Excel, Python, machine learning, and applied analytics. He is deeply involved in curriculum design, research mentorship, and capacity building for industry-oriented business analytics education.\n' +
         '\n' +
