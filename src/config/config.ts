@@ -300,8 +300,8 @@ certifications: [
   ],
 
   contact: {
-    email: 'chandraveshchaudhari@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/chandravesh-chaudhari/',
+    email: 'ssathwik3233@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/sai-sathwik-sadasivapetkar-946586349/',
     github: 'https://github.com/chandraveshchaudhari',
     googleScholar: 'https://scholar.google.com/citations?authuser=1&user=V78qbA8AAAAJ',
   orcid: 'https://orcid.org/0000-0003-1053-7541',
