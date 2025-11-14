@@ -1,4 +1,48 @@
 // src/config/config.ts
+// ---------- TYPES ----------
+export interface BlogItem {
+  title: string;
+  url: string;
+}
+
+export interface EducationItem {
+  institution: string;
+  degree: string;
+  year: string;
+  image: string;
+  description: string[];
+}
+
+export interface CertificationItem {
+  title: string;
+  file: string;
+}
+
+export interface ExperienceItem {
+  title: string;
+  cardImage: string;
+  place: string;
+  time: string;
+  desp: string[];
+}
+
+export interface ProjectItem {
+  title: string;
+  cardImage: string;
+  description: string;
+  Githublink: string;
+}
+
+export interface ResearchItem {
+  title: string;
+  description: string;
+}
+
+export interface BookItem {
+  title: string;
+  cover?: string;
+  link?: string;
+}
 
 export const getAsset = (path: string) => {
   return `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${path}`;
@@ -109,8 +153,8 @@ const siteConfig = {
   ],
 
   // Empty sections with forced typing to avoid "never[]" errors
-  research: [] as any[],
-  books: [] as any[],
+research: [] as ResearchItem[],
+books: [] as BookItem[],
 
   contact: {
     email: 'saisathwik@s3scompany.com',
